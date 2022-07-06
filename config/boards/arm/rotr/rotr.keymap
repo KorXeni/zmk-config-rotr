@@ -22,7 +22,7 @@
 		one {
 			//GREEN		CTRL Z | LAYER | B	SIDE SCROLL CONTROL
 			bindings = <&kp LC(Z) &lt 4 C_PP &kp B;
-		//	sensor-bindings = <&inc_dec_kp LS(C_AC_SCROLL_UP) LS(C_AC_SCROLL_DOWN)>;
+		//	sensor-bindings = <&inc_dec_kp LS(K_SCROLL_UP) LS(K_SCROLL_DOWN)>;
 		};
 		two {
 			//BLUE		LEFT | LAYER | RIGHT	PAGEUP AND PAGEDOWN
