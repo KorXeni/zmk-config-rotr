@@ -15,14 +15,14 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
-			//RED		PREV | LAYER | NEXT	VOLUME CONTROL
-			bindings = <&kp C_PREV &lt 4 F13 &kp C_NEXT>;
+			//RED		PREV | PAUSE/PLAY | NEXT	VOLUME CONTROL
+			bindings = <&kp C_PREV &lt 4 C_PP &kp C_NEXT>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		one {
-			//GREEN		CTRL Z | LAYER | B	SIDE SCROLL CONTROL
-			bindings = <&kp LC(Z) &lt 4 C_PP &kp B;
-			sensor-bindings = <&inc_dec_kp LS(K_SCROLL_UP) LS(K_SCROLL_DOWN)>;
+			//GREEN		CTRL Z | SPACE | B	SIDE SCROLL CONTROL
+			bindings = <&kp LC(Z) &lt 4 SPACE &kp B>;
+			sensor-bindings = <&inc_dec_kp LS(C_AC_SCROLL_UP) LS(C_AC_SCROLL_DOWN)>;
 		};
 		two {
 			//BLUE		LEFT | LAYER | RIGHT	PAGEUP AND PAGEDOWN
