@@ -26,7 +26,7 @@
 			sensor-bindings = <&inc_dec_kp LS(C_AC_SCROLL_UP) LS(C_AC_SCROLL_DOWN)>;
 		};
 		two {
-			//BLUE		MUTE | LAYER | PAUSE/PLAY
+			//BLUE		LEFT | LAYER | RIGHT	PAGEUP AND PAGEDOWN
 			bindings = <&kp LEFT &lt 4 SPACE &kp RIGHT>;
 			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 		};
