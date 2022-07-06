@@ -15,8 +15,7 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
-			//RED		MUTE | LAYER | PAUSE/PLAY	VOLUME CONTROL
-			//bindings = <&kp C_MUTE &lt 4 F13 &kp C_PP>;
+			//RED		PREV | LAYER | NEXT	VOLUME CONTROL
 			bindings = <&kp C_PREV &lt 4 F13 &kp C_NEXT>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
