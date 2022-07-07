@@ -22,12 +22,12 @@
 		one {
 			//GREEN		CTRL Z | SPACE | B	SIDE SCROLL CONTROL
 			bindings = <&kp LC(Z) &lt 4 SPACE &kp B>;
-			sensor-bindings = <&inc_dec_kp LS(SCROLL_UP) LS(SCROLL_DOWN)>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		two {
 			//BLUE		LEFT | LAYER | RIGHT	SCROLLDOWN AND SCROLLEUP
 			bindings = <&mkp LCLK &lt 4 SPACE &kp RIGHT>;
-			sensor-bindings = <&inc_dec_kp SCROLL_UP SCROLL_DOWN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		three {
 			//Other GREEN	MUTE | LAYER | PAUSE/PLAY	
