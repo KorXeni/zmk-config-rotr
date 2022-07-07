@@ -26,7 +26,7 @@
 		};
 		two {
 			//BLUE		LEFT | LAYER | RIGHT	SCROLLDOWN AND SCROLLEUP
-			bindings = <&mkp LCLK &lt 4 SPACE &kp RIGHT>;
+			bindings = <&kp LEFT &lt 4 SPACE &kp RIGHT>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		three {
